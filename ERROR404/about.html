@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 8px 8px 0 #f3dffc;
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f3dffc;
+  /* color: white; */
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<title>About us</title>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p> Namaskaar IITR junta, IITR is excelling not just in academics but also in a variety of extracurricular activities ranging from cultural to technical to social. We have a plethora of clubs and societies eager to welcome new members and assist them showcase their abilities and improve. <p>We have made this open source website which contains all of the necessary information on all of the clubs and societies at IITR.</p>
+</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card" style="text-align: center;">
+      <img src="IMG_8837.JPG" alt="Ojaswi" width="200" >
+      <div class="container">
+        <h2>Ojaswi Chopra</h2>
+       
+        <p>Hello, I'm a btech student at IIT Roorkee. I'm a nascent designer and editor who is keen to learn more.. </p>
+        <p>o_chopra@me.iitr.ac.in</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column" >
+    <div class="card" style="text-align: center;">
+      <img src="IMG_8838.JPG" alt="Rudra" width="200">
+      <div class="container">
+        <h2>Rudra Surana</h2>
+        <p>Hola, I am currently pursuing an engineering degree at IIT Roorkee, with a passion for web design, music, and phography.</p>
+        <p>r_surana@me.iitr.ac.in</p>
+        
+      </div>
+    </div>
+  </div>
+  
+ 
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
